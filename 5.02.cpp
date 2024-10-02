@@ -39,7 +39,7 @@ int main()
 void S(const double x, const double eps, int& n, double& s)
 {
     n = 1;
-    double a = 1.0; // початковий член ряду
+    double a = 1.0; 
     s = a;
 
     do {
@@ -51,6 +51,6 @@ void S(const double x, const double eps, int& n, double& s)
 
 void A(const double x, const int n, double& a)
 {
-    double R = x / n; // відношення для наступного члена ряду
+    double R = x / n;  
     a *= R;
 }
